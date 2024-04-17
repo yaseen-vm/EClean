@@ -1,7 +1,7 @@
 <%@include file="SessionValidator.jsp" %>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<title>S.S Industry Buying</title>
+<title>ECLEAN</title>
 
 <!-- <link rel="icon" href="../Assets/Template/admin/img/favicon.png" type="image/png"> -->
 <!-- Bootstrap CSS -->
@@ -112,8 +112,9 @@
             </a>
         </li>
         <li class="">
-            <a   class="has-arrow" href="../logout.jsp" aria-expanded="false">
+            <a   class="has-arrow" href="../Login.jsp" aria-expanded="false">
                 <img src="../Assets/Template/admin/img/menu-icon/2.svg" alt="">
+                
                 <span>Logout</span>
             </a>
         </li>

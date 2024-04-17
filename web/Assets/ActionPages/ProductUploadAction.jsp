@@ -99,7 +99,7 @@
 <script type="text/javascript">
     alert("Registration Completed");
     setTimeout(function() {
-        window.location.href = '../../Shop/Product.jsp'
+        window.location.href = '../../Shop/Stock.jsp'
     }, 40);//40millisecend it go to next page
 </script>
 <%

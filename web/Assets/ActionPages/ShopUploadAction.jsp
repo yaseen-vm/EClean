@@ -120,7 +120,7 @@
         <script type="text/javascript">
             alert("Registration Completed");
             setTimeout(function() {
-                //window.location.href = '../../Login.jsp'
+                window.location.href = '../../Login.jsp'
             }, 40);//40millisecend it go to next page
         </script>
         <%
@@ -130,7 +130,7 @@
         <script type="text/javascript">
             alert("Password Mismatched..");
             setTimeout(function() {
-               // window.location.href = '../../Shop.jsp'
+                window.location.href = '../../Shop.jsp'
             }, 40);//40millisecend it go to next page
             //   </script>
             <%

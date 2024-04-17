@@ -41,7 +41,7 @@
                                     </div>
                                     <div class="col-lg-12">
                                         <fieldset>
-                                            <a href='EditProfile.jsp' class="filled-button" style="color: white">Edit Profile</a>
+                                            <a href='EditProfile.jsp' class="filled-button" style="color:white">Edit Profile</a>
                                             <a href='ChangePassword.jsp' class="filled-button" style="color: white">Change Password</a>
                                         </fieldset>
                                     </div>

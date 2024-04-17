@@ -107,9 +107,9 @@
                     }
 
                 }
-                if (value[6].equals(value[7])) {//Strinh str1="insert into tbl_user ()";//inserting file
+                if (value[7].equals(value[8])) {//Strinh str1="insert into tbl_user ()";//inserting file
                     String InsQry = "INSERT INTO `tbl_user`( `user_name`, `user_contact`, `user_email`,`user_address`,place_id, `user_photo`,`user_proof`,`user_password`)"
-                            + "values('" + value[0] + "','" + value[1] + "','" + value[2] + "','" + value[3] + "','" + value[6] + "','" + photo + "','" + proof + "','" + value[7] + "')";
+                            + "values('" + value[0] + "','" + value[1] + "','" + value[2] + "','" + value[3] + "','" + value[6] + "','" + photo + "','" + proof + "','" + value[8] + "')";
 
                     //System.out.println(InsQry);
                     //out.println(InsQry);

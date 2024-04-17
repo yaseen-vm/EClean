@@ -104,7 +104,6 @@
                                     <th>Category</th>
                                     <th>Subcategory</th>
                                     <th>Rate</th>
-                                    <th>MRP</th>
                                     <th colspan="3" style="text-align: center">Action</th>
                                 </tr>
                                 <%
@@ -122,10 +121,8 @@
                                     <td><%=rsdP.getString("category_name")%></td>
                                     <td><%=rsdP.getString("subcategory_name")%></td>
                                     <td><%=rsdP.getString("product_rate")%></td>
-                                    <td><%=rsdP.getString("MRP")%></td>
                                     <td><a href="Product.jsp?id=<%=rsdP.getString("product_id")%>">Delete</a></td>
                                     <td><a href="Stock.jsp?id=<%=rsdP.getString("product_id")%>">Stock</a></td>
-                                    <td><a href="Offer.jsp?id=<%=rsdP.getString("product_id")%>">Offer</a></td>
                                 </tr>
                                 <%
                                     }
